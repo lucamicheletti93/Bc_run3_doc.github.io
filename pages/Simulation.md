@@ -22,5 +22,5 @@ In order to run a Bc simulation within the O2 framework is necessary to do the f
   
  If the procedure ends properly an AO2D.root file will be produced. If there is an error try to modify the last line of the script with:
  ```ruby
- ${O2DPG_ROOT}/MC/bin/o2_dpg_workflow_runner.py -f workflow.json -tt ao
+ ${O2DPG_ROOT}/MC/bin/o2_dpg_workflow_runner.py -f workflow.json -tt aod
  ```
