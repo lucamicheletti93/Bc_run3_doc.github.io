@@ -1,11 +1,14 @@
 ## Welcome to Bc documentation page
 
 Useful Links:
-- To be added
+- [Presentation Fabrizio B_c studies in ALICE with muons](https://indico.in2p3.fr/event/19597/contributions/75760/)
+- [CMS public analysis note](https://inspirehep.net/files/ae53fcc73a1a50f010506f40f2126a4f)
+- [CMS paper](https://arxiv.org/pdf/2201.02659.pdf)
 
 Overview:
 - [Simulation](pages/Simulation.md)
 - [To do list](pages/To_do_list.md)
+- [Cluster info](pages/Cluster.md)
 
 ---
 
