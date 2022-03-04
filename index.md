@@ -1,7 +1,7 @@
 ## Welcome Bc documentation page
 
 Overview
-- Simulation
+- [Simulation](pages/Simulation.md)
 
 ---
 
