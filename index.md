@@ -1,4 +1,4 @@
-## Welcome Bc documentation page
+## Welcome to Bc documentation page
 
 Overview
 - [Simulation](pages/Simulation.md)
