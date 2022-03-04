@@ -8,7 +8,6 @@ Useful Links:
 Overview:
 - [Simulation](pages/Simulation.md)
 - [To do list](pages/To_do_list.md)
-- [Cluster info](pages/Cluster.md)
 
 ---
 
