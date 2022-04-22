@@ -7,6 +7,7 @@ Useful Links:
 
 Overview:
 - [Simulation](pages/Simulation.md)
+- [Analysis](pages/Analysis.md)
 - [To do list](pages/To_do_list.md)
 
 ---
