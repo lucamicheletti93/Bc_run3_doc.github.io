@@ -13,5 +13,5 @@
   ```
 - Run TableReader:
   ```ruby
-  o2-analysis-dq-efficiency --configuration json://configAnalysisMC.json --aod-writer-json writerConfiguration_dileptons.json -b
+  o2-analysis-dq-efficiency --configuration json://configAnalysisMC.json --aod-writer-json writerConfiguration_dileptons_track.json -b
   ```
