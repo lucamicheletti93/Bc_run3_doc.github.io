@@ -4,7 +4,7 @@ In order to run a Bc simulation within the O2 framework is necessary to do the f
 - Clone https://github.com/mcoquet642/O2DPG/tree/Bc_fwd_simu
 - Build the O2DPG with:
   ```ruby
-  aaliBuild build O2 QualityControl O2Physics O2DPG --defaults o2
+  aliBuild build O2 QualityControl O2Physics O2DPG --defaults o2
   ```
 - Build EVTGEN with:
   ```ruby
