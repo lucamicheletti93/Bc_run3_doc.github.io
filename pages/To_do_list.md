@@ -3,24 +3,21 @@
 ToDo: share code of Maurice for fast simulation studies
 -> share code during next week  (Maurice)
  --- on github
--> Luca: understanding how information is stored to adapt for 3 prong
---> Luca/Maurice: merging (complete information from different tables (BDT)) output 
--> proposal for DQ/O2 (Maurice with help of Batoul and Luca)
 
--> Michael: follow up on external account and  test cvfms O2 on cluster.
+-> Michael: follow up on external account and  test cvfms O2 on cluster. not yet solved, going for CERN ressources for the moment
 --> investigate: EOS disc space for analysis
 
 
--> Batoul: start with digging in code when arriving and discussion on T&P etc. ...
--> Michael/Maurice: trigger simulation production after discussion with Roberto and Sandro. (Michael for generator inclusion) 
-	Could do local pp production on cluster for testing (depending on time)?
+-> Batoul: startrd T&P, and working on merging debugging
+-> simulation signal: bricolage solution working  (non-dev branch of DPGO2) 
+------> Bother again simulation people (Sandro/Gustavo)
 	
 -> Create github for documentation (Luca Micheletti with documentation)
 
 
----> pp luminosity: 30 /pb. (next week)
+---> pp luminosity: 15 /pb. 
 
--> next meeting: 4th of March
+-> next meeting: 15th of July, 11 AM
 
 
 
@@ -30,36 +27,38 @@ Prequisites:
 
 (should be adapatable from Jpsi+track part for B+->jpsi K^+ analysis model)
 
--> Batoul (priority),
-Maurice, Luca
+-> Done, at least functional, may require adaptation once analysis starts
 
 2) introduce all required variables in Varmanager in O2 (pending since tracking implementation not yet finished)
 
-- first steps done by Maurice
 - start with 2-track variables (anyhow needed for all kind of analyses)
+->  to be verified soon, at least single-track dca missing, cos(thetastar_jpsi_mu) missing
+--> trigger Shreyasi again for single-track dca
 
 3) implement B_c Veg generator into O2
 
 - first steps done by Maurice
+-- waiting
 
 4) put in place interface for root trees/arrow tables as analysis 
-- rudimentary thing avaialble in table-reader, to be adapted
+- available
 
 - check if possible to take same interface as heavy-flavour working group
---> Luca with contact to Fabrizio
-
-
-----> can be already done once we have reasonable simulation and tracking in O2
+--> possible with current signal simulation and data structure
+--> HF has 2 signal categories
 
 
 5) take care of local cluster adaptation for O2 analysis at IRFU
 -> cvfms for O2 (or local installation if needed)
 -> acces for Luca
-
+--> pending since O2 not yet running, under discussion
 
 Actual analysis preparation (requires largely first 3 steps in place):
 
 0) acess feasibility in pp and PbPb with a given luminosity more precisely than previously to define priorities, in any case, at some point should be feasible. Since predictions are quite astronomic, already limit setting could be interesting (although requiring additional work)
+-> pp 13 TeV should be feasible
+-> PbPb depending on background rejection/detector calibration etc. (should be feasible as well if everything up to specifications)
+
 
 I) Studies (CMS, fast simulation, simple considerations) to identify correlated background that needs to be simulated
 -- anticipate full simulations that we can have easily and that we should ask for
