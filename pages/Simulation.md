@@ -24,3 +24,8 @@ In order to run a Bc simulation within the O2 framework is necessary to do the f
  ```ruby
  ${O2DPG_ROOT}/MC/bin/o2_dpg_workflow_runner.py -f workflow.json -tt aod
  ```
+## Fast simulation with RapidSim and BDT
+
+- Fast simulation tool (modified particle-gun generato for LHCb, adapted to ALICE run3) : https://github.com/mcoquet642/RapidSim/tree/clean_aliceRun3
+- XGboost, Boosted Decision tree : https://github.com/mcoquet642/bdt-tutorial/tree/b_c
+- Some simple macros to reproduce a background mix : https://github.com/mcoquet642/Bc_Bkg_mix.git
