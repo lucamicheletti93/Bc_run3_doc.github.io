@@ -35,9 +35,9 @@ In case of missing tables add the following arguments
 ### TableReader
 - Run TableReader with dilepton-track tables saved:
   ```ruby
-  o2-analysis-dq-efficiency --configuration json://configAnalysisMC.json --aod-writer-json writerConfiguration_dileptons_track.json -b
+  o2-analysis-dq-efficiency --configuration json://config/configAnalysisMC.json --aod-writer-json writerConfiguration_dileptons_track.json -b
   ```
 - Run TableReader without dilepton-track tables saved:
   ```ruby
-  o2-analysis-dq-efficiency --configuration json://configAnalysisMC.json -b
+  o2-analysis-dq-efficiency --configuration json://config/configAnalysisMC.json -b
   ```
