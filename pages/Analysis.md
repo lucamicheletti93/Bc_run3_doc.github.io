@@ -18,9 +18,9 @@
 
 ## List of commands to run (updated)
 In case of missing tables add the following arguments
-1. --add_mc_conv: o2mcparticle -> o2mcparticle_001
-2. --add_fdd_conv: o2fdd -> o2fdd_001
-3. --add_track_prop: o2track -> o2track_iu ([link](https://aliceo2group.github.io/analysis-framework/docs/helperTasks/trackPropagation.html))
+1. **--add_mc_conv**: o2mcparticle -> o2mcparticle_001
+2. **--add_fdd_conv**: o2fdd -> o2fdd_001
+3. **--add_track_prop**: o2track -> o2track_iu ([link](https://aliceo2group.github.io/analysis-framework/docs/helperTasks/trackPropagation.html))
 
 ### TableMaker
 - Run TableMaker on data/AO2D_Bc100.root
