@@ -26,7 +26,7 @@ In order to run a Bc simulation within the O2 framework is necessary to do the f
  ```
  
 # Run simulation on LXPLUS
-In afs:
+In afs configure the environment to run the Bc script:
   ```ruby
   /cvmfs/alice.cern.ch/bin/alienv enter VO_ALICE@O2Physics::nightly-20220615-1
   ```
@@ -36,6 +36,7 @@ In afs:
   ```ruby
   export O2DPG_ROOT=/afs/cern.ch/work/l/lmichele/alice/O2DPG
   ```
+  create a ticket for the grid
  
 ## Fast simulation with RapidSim and BDT
 
