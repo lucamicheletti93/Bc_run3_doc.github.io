@@ -24,6 +24,19 @@ In order to run a Bc simulation within the O2 framework is necessary to do the f
  ```ruby
  ${O2DPG_ROOT}/MC/bin/o2_dpg_workflow_runner.py -f workflow.json -tt aod
  ```
+ 
+# Run simulation on LXPLUS
+In afs:
+  ```ruby
+  /cvmfs/alice.cern.ch/bin/alienv enter VO_ALICE@O2Physics::nightly-20220615-1
+  ```
+  ```ruby
+  module load EVTGEN
+  ```
+  ```ruby
+  export O2DPG_ROOT=/afs/cern.ch/work/l/lmichele/alice/O2DPG
+  ```
+ 
 ## Fast simulation with RapidSim and BDT
 
 - Fast simulation tool (modified particle-gun generato for LHCb, adapted to ALICE run3) : https://github.com/mcoquet642/RapidSim/tree/clean_aliceRun3
